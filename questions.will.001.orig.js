@@ -11,7 +11,7 @@ questions = [
     },
     {
         //"question": "It is necessary for the government to intervene in the economy to protect consumers.",
-        "question": "It is sometimes necessary for the government intervene to protect consumers.",
+        "question": "It is necessary for the government intervene in the economy periodically to protect consumers.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -78,8 +78,7 @@ questions = [
         // arrangement will be made possible by the abundance of goods and services that a developed communist
         // system will be capable to produce; the idea is that, with the full development of socialism and 
         // unfettered productive forces, there will be enough to satisfy everyone's needs.
-        // "question": "From each according to his ability, to each according to his needs.",
-        "question": "???",
+        "question": "From each according to his ability, to each according to his needs.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -100,8 +99,8 @@ questions = [
         }
     },
     {
-        "question": "Taxes should be increased on the rich to provide for the poor.",
-        //"question": "If you are rich, you should be taxed more to help out poor people",
+        //"question": "Taxes should be increased on the rich to provide for the poor.",
+        "question": "If you are rich, you should be taxed more to help out poor people",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -116,7 +115,7 @@ questions = [
         // what happens to his/her wealth (property), whether they give it to charity, spend
         // it on wine, women & song, or will it to their progeny.
         // "question": "Inheritance is a legitimate form of wealth.",
-        "question": "If your parents die and leave you all of their money in their will, you can spend it however you like.",
+        "question": "If your parents die and leave you all of their money in their will, you are free to spend it however you like.",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -146,7 +145,7 @@ questions = [
     },
     {
         //"question": "Those with a greater ability to pay should receive better healthcare.",
-        "question": "If you are rich and get sick you should be able to use your money to get the best treatment.",
+        "question": "If you are rich and get sick you should be able to spend your money to get the best treatment.",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -155,7 +154,8 @@ questions = [
         }
     },
     {
-        "question": "Quality education is a right of all people.",
+        //"question": "Quality education is a right of all people.",
+        "question": "Anyone that wants to go to school should be able to go for free.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -164,6 +164,7 @@ questions = [
         }
     },
     {
+        //https://en.wikipedia.org/wiki/Means_of_production#:~:text=society%20at%20large.-,Determinant%20of%20class,passive%20income%20from%20their%20operation.
         "question": "The means of production should belong to the workers who use them.",
         "effect": {
             "econ": 10,
@@ -173,6 +174,7 @@ questions = [
         }
     },
     {
+        //https://www.quora.com/What-arguments-are-there-for-why-the-United-Nations-should-be-abolished
         "question": "The United Nations should be abolished.",
         "effect": {
             "econ": 0,
@@ -182,7 +184,8 @@ questions = [
         }
     },
     {
-        "question": "Military action by our nation is often necessary to protect it.",
+        //"question": "Military action by our nation is often necessary to protect it.",
+        "question": "We often must go to war to protect our country.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -191,7 +194,8 @@ questions = [
         }
     },
     {
-        "question": "I support regional unions, such as the European Union.",
+        //"question": "I support regional unions, such as the European Union.",
+        "question": "It is good that countries join together and agree to help each other.",
         "effect": {
             "econ": -5,
             "dipl": 10,
@@ -200,7 +204,8 @@ questions = [
         }
     },
     {
-        "question": "It is important to maintain our national sovereignty.",
+        //"question": "It is important to maintain our national sovereignty.",
+        "question": "It is important that our country remains independent and is governed by the people that live here.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -209,7 +214,8 @@ questions = [
         }
     },
     {
-        "question": "A united world government would be beneficial to mankind.",
+        //"question": "A united world government would be beneficial to mankind.",
+        "question": "If the whole world was just one country, mankind would benefit.",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -218,7 +224,8 @@ questions = [
         }
     },
     {
-        "question": "It is more important to retain peaceful relations than to further our strength.",
+        //"question": "It is more important to retain peaceful relations than to further our strength.",
+        "question": "It is more important to keep peace than to prepare for war.",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -227,7 +234,8 @@ questions = [
         }
     },
     {
-        "question": "Wars do not need to be justified to other countries.",
+        //"question": "Wars do not need to be justified to other countries.",
+        "question": "If our country must go to war with another, we don't need any other country's permission.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -236,7 +244,8 @@ questions = [
         }
     },
     {
-        "question": "Military spending is a waste of money.",
+        //"question": "Military spending is a waste of money.",
+        "question": "When the government spends money on the military, it is a waste of money.",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -245,7 +254,8 @@ questions = [
         }
     },
     {
-        "question": "International aid is a waste of money.",
+        //"question": "International aid is a waste of money.",
+        "question": "Giving money to those in need that don't live in our country is a waste of money.",
         "effect": {
             "econ": -5,
             "dipl": -10,
@@ -254,7 +264,8 @@ questions = [
         }
     },
     {
-        "question": "My nation is great.",
+        //"question": "My nation is great.",
+        "question": "My country is great.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -263,7 +274,8 @@ questions = [
         }
     },
     {
-        "question": "Research should be conducted on an international scale.",
+        //"question": "Research should be conducted on an international scale.",
+        "question": "Inventors from different countries should coopoerate to come up with new technologies.",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -272,7 +284,8 @@ questions = [
         }
     },
     {
-        "question": "Governments should be accountable to the international community.",
+        //"question": "Governments should be accountable to the international community.",
+        "question": "Our country should obey international laws that all countries have agreed upon.",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -281,7 +294,8 @@ questions = [
         }
     },
     {
-        "question": "Even when protesting an authoritarian government, violence is not acceptable.",
+        //"question": "Even when protesting an authoritarian government, violence is not acceptable.",
+        "question": "Protestors should never cause harm to anyone or any property.",
         "effect": {
             "econ": 0,
             "dipl": 5,
@@ -290,7 +304,8 @@ questions = [
         }
     },
     {
-        "question": "My religious values should be spread as much as possible.",
+        //"question": "My religious values should be spread as much as possible.",
+        "question": "Many of my values come from my religion.",
         "effect": {
             "econ": 0,
             "dipl": -5,
@@ -299,7 +314,8 @@ questions = [
         }
     },
     {
-        "question": "Our nation's values should be spread as much as possible.",
+        //"question": "Our nation's values should be spread as much as possible.",
+        "question": "Many of our country's values come from different religions.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -317,7 +333,8 @@ questions = [
         }
     },
     {
-        "question": "The general populace makes poor decisions.",
+        //"question": "The general populace makes poor decisions.",
+        "question": "The average person makes poor decisions.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -326,7 +343,8 @@ questions = [
         }
     },
     {
-        "question": "Physician-assisted suicide should be legal.",
+        //"question": "Physician-assisted suicide should be legal.",
+        "question": "If you're sick and there is no hope to live, it is not against the law to have a doctor help you end your life.",
         "effect": {
             "econ": 0,
             "dipl": 0,
