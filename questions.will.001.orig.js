@@ -56,8 +56,13 @@ questions = [
             "scty": 10
         }
     },
-    {
-        "question": "Tariffs on international trade are important to encourage local production.",
+    {   
+        // Tarriff - Rather than being used to raise revenue, they are imposed to increase the price
+        // of foreign goods in order to make domestic produce comparatively cheaper, with the aim of
+        // encouraging domestic production by protecting local firms from global competition.
+        //https://www.theguardian.com/business/2018/jul/06/what-are-trade-tariffs-and-who-will-they-affect#:~:text=Rather%20than%20being%20used%20to,local%20firms%20from%20global%20competition.
+        //"question": "Tariffs on international trade are important to encourage local production.",
+        "question": "It is important to make laws which make imported goods more expensive. This makes domestic products more competative.",
         "effect": {
             "econ": 5,
             "dipl": 0,
@@ -66,7 +71,15 @@ questions = [
         }
     },
     {
-        "question": "From each according to his ability, to each according to his needs.",
+        // https://en.wikipedia.org/wiki/From_each_according_to_his_ability,_to_each_according_to_his_needs
+        // "From each according to his ability, to each according to his needs" is a slogan popularised
+        // by Karl Marx in his 1875 Critique of the Gotha Program.[1][2] The principle refers to free 
+        // access to and distribution of goods, capital and services.[3] In the Marxist view, such an 
+        // arrangement will be made possible by the abundance of goods and services that a developed communist
+        // system will be capable to produce; the idea is that, with the full development of socialism and 
+        // unfettered productive forces, there will be enough to satisfy everyone's needs.
+        // "question": "From each according to his ability, to each according to his needs.",
+        "question": "???",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -75,7 +88,10 @@ questions = [
         }
     },
     {
-        "question": "It would be best if social programs were abolished in favor of private charity.",
+        // https://www.theatlantic.com/politics/archive/2014/03/the-conservative-myth-of-a-social-safety-net-built-on-charity/284552/
+        // https://www.quora.com/It-would-be-best-if-social-programs-were-abolished-in-favor-of-private-charity-How-much-do-you-agree-with-the-following-statement
+        // "question": "It would be best if social programs were abolished in favor of private charity.",
+        "question": "Churches and other charities should give money to help the needy, not the government.",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -85,6 +101,7 @@ questions = [
     },
     {
         "question": "Taxes should be increased on the rich to provide for the poor.",
+        //"question": "If you are rich, you should be taxed more to help out poor people",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -92,8 +109,14 @@ questions = [
             "scty": 0
         }
     },
-    {
-        "question": "Inheritance is a legitimate form of wealth.",
+    {   
+        // https://www.quora.com/Inheritance-is-a-legitimate-form-of-wealth-How-much-do-you-agree-with-the-following-statement#:~:text=100%25.,will%20it%20to%20their%20progeny.
+        // Inherited wealth is nothing more than wealth bequeathed to an heir from the 
+        // individual who owned/earned that wealth. It is that person’s right to determine
+        // what happens to his/her wealth (property), whether they give it to charity, spend
+        // it on wine, women & song, or will it to their progeny.
+        // "question": "Inheritance is a legitimate form of wealth.",
+        "question": "If your parents die and leave you all of their money in their will, you can spend it however you like.",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -102,6 +125,7 @@ questions = [
         }
     },
     {
+        //https://www.reddit.com/r/AskLibertarians/comments/dni205/public_utilities_like_roads_and_electricity/
         "question": "Basic utilities like roads and electricity should be publicly owned.",
         "effect": {
             "econ": 10,
@@ -111,6 +135,7 @@ questions = [
         }
     },
     {
+        //"question": "Government intervention is a threat to the economy.",
         "question": "Government intervention is a threat to the economy.",
         "effect": {
             "econ": -10,
@@ -120,7 +145,8 @@ questions = [
         }
     },
     {
-        "question": "Those with a greater ability to pay should receive better healthcare.",
+        //"question": "Those with a greater ability to pay should receive better healthcare.",
+        "question": "If you are rich and get sick you should be able to use your money to get the best treatment.",
         "effect": {
             "econ": -10,
             "dipl": 0,
